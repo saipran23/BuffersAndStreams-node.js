@@ -1,0 +1,8 @@
+A Node.js Buffer is a built-in global object used to handle, manipulate, and temporarily store raw binary data directly in memory outside of the V8 JavaScript engine heap
+Buffer - are objects and store the raw binary data
+Fixed Size: Once allocated, a buffer's size cannot be altered.
+Raw Memory: It sits outside the traditional V8 heap, minimizing memory fragmentation during I/O operations
+Array of Bytes: It behaves similarly to an array of integers, where each element represents exactly 1 byte (valued 0 to 255).
+Global Access: You do not need to require or import it; it is always accessible via the global scope.
+
+use-cases : file system operations , cryptography, image processing
