@@ -6,3 +6,24 @@ Array of Bytes: It behaves similarly to an array of integers, where each element
 Global Access: You do not need to require or import it; it is always accessible via the global scope.
 
 use-cases : file system operations , cryptography, image processing
+
+
+
+Streams:---------------------
+
+Node.js streams are collections of data that are read from a source or written to a destination in small, sequential pieces called chunks
+Processing data in chunks instead of loading it all at once.
+Improving memory usage and performance during data transfer.
+
+it helps to read data from the socurce
+
+
+There are namely four types of streams in Node.js.
+
+Writable: We can write data to these streams.
+Readable: We can read data from these streams.
+Duplex: Streams that are both, Writable as well as Readable.
+Transform: Streams that can modify or transform the data as it is written and read.
+
+
+
